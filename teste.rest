@@ -1,0 +1,24 @@
+### Criar usuário
+POST http://localhost/api/api.php
+Content-Type: application/json
+
+{
+    "nome": "Ana Clara",
+    "email": "anaclara5@gmail.com",
+    "senha": "Nohby4591@",
+    "telefone": "(31986538401",
+    "endereco": "Rua A, 123",
+    "estado": "MG",
+    "data_nascimento": "2021-02-13"
+}
+
+### Listar usuários
+GET http://localhost/api/listarUsuarios.php
+Accept: application/json
+
+### Listar usuário por ID
+GET http://localhost/api/listarUsuarios.php?id=
+Accept: application/json
+
+### Deletar um usuário
+DELETE http://localhost/api/deletarUsuario.php?id=
